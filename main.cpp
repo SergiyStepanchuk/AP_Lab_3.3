@@ -23,8 +23,6 @@ void main() {
 
     if (x < 0)
         y = x / -2;
-    else if (x == 0)
-        y = 0;
     else if (x <= R)
         y = R - sqrt(R * R - x * x);
     else if (x <= 2 * R)
